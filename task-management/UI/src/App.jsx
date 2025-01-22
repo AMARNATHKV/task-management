@@ -6,7 +6,7 @@ import AddTaskPage from "./pages/AddTaskPage";
 const App = () => {
   return (
        
-          <Route path="/tasks/:taskId" element={<AddTaskPage />} /> 
+           <Route index element={<AddTaskPage/>} />
   );
 };
 
